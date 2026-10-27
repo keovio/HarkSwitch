@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "HarkSwitch",
+  "version": "0.1.0",
+  "description": "一键切换多个 Hark 账号，登录状态只存在本机。",
+  "permissions": ["cookies", "storage", "scripting", "tabs"],
+  "host_permissions": ["*://hark.com/*", "*://*.hark.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": { "16": "icons/16.png", "32": "icons/32.png", "48": "icons/48.png", "128": "icons/128.png" }
+  },
+  "icons": { "16": "icons/16.png", "32": "icons/32.png", "48": "icons/48.png", "128": "icons/128.png" }
+}
